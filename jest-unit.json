@@ -1,0 +1,21 @@
+{
+  "transform": {
+    "^.+\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+  },
+  "testRegex": "(\\.|/)(test|spec)\\.ts$",
+  "moduleFileExtensions": [
+    "ts",
+    "js",
+    "json"
+  ],
+  "collectCoverage": true,
+  "coverageDirectory": "coverage",
+  "coverageThreshold": {
+    "global": {
+      "branches": 10,
+      "functions": 10,
+      "lines": 10,
+      "statements": 10
+    }
+  }
+}

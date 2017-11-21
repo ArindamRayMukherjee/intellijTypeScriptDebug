@@ -1,0 +1,1 @@
+{"version":3,"sources":["RequestUriParams.ts"],"names":[],"mappings":";;AAAA;CAOC;AAPD,4CAOC","file":"RequestUriParams.js","sourcesContent":["export class RequestUriParams {\n  public method: string;\n  public uri: string;\n  public body: any;\n  public resolveWithFullResponse: boolean;\n  public simple: boolean;\n  public json: boolean;\n}"]}

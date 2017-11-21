@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "scripts": {
+    "compile": "gulp compile",
+    "lint": "tslint -c tslint.json -e 'node_modules/**/*.ts' -e '**/*/*.d.ts' '**/*.ts' ",
+    "swagger-lint": "swagger-cli validate *-swagger.yml",
+    "server": "func host start",
+    "test": "jest --config jest-unit.json",
+    "test:integration": "jest --config jest-it.json",
+    "test:all": "jest --config jest-all.json"
+  },
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.9",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.5",
+    "@types/node": "^8.0.47",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.3",
+    "gulp-yaml": "^1.0.1",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.1.4",
+    "tslint": "^5.8.0",
+    "typemoq": "^2.1.0"
+  }
+}
